@@ -1,5 +1,5 @@
-import Sugar from "../assets/Sugar.jpg";
-import "./cards.css";
+import Sugar from "../../assets/Sugar.jpg";
+import "../cards.css";
 import { useState } from "react";
 
 function Card3() {

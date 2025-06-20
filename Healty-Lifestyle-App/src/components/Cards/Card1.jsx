@@ -1,5 +1,5 @@
-import Exercise from "../assets/Exercize.jpg";
-import "./cards.css";
+import Exercise from "../../assets/Exercize.jpg";
+import "../cards.css";
 import { useState } from "react";
 function Card1() {
   let [cardState, setCardState] = useState(true);

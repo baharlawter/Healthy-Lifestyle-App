@@ -1,5 +1,5 @@
-import Fasting from "../assets/Fasting.jpg";
-import "./cards.css";
+import Fasting from "../../assets/Fasting.jpg";
+import "../cards.css";
 import React, { useState } from "react";
 function Card2() {
   let [cardState, setCardState] = useState(true);

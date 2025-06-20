@@ -1,8 +1,9 @@
-import Card from "./components/cards";
 import "./App.css";
-import Card1 from "./components/Card1";
-import Card2 from "./components/Card2";
-import Card3 from "./components/Card3";
+
+import Card1 from "./components/Cards/Card1";
+import Card2 from "./components/Cards/Card2";
+import Card3 from "./components/Cards/Card3";
+import Card4 from "./components/Cards/Card4";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 
@@ -17,13 +18,14 @@ function App() {
 
       <h2 className="madeBy">Made by: Bahar Lawter</h2>
       <div className="cards">
-        <Card />
         <hr />
         <Card1 />
         <hr />
         <Card2 />
         <hr />
         <Card3 />
+        <hr />
+        <Card4 />
       </div>
       <Footer />
       <footer>© Copyright All rights reserved</footer>

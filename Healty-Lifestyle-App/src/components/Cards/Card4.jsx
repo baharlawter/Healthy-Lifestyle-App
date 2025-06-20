@@ -1,7 +1,8 @@
-import Plate from "../assets/Plate.jpg";
-import "./cards.css";
+import Plate from "../../assets/Plate.jpg";
+import "../cards.css";
 import React, { useState } from "react";
-function Card() {
+
+function Card4() {
   let [cardState, setCardState] = useState(true);
 
   if (!cardState) {
@@ -57,4 +58,4 @@ function Card() {
   }
 }
 
-export default Card;
+export default Card4;
