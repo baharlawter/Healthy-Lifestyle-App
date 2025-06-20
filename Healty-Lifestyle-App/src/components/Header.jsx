@@ -1,10 +1,11 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import "./cards.css";
 
 function Header() {
   const handleClick = () => {
     alert("Button Clicked 😊");
   };
+
   return (
     <div className="buttons header">
       <button onClick={handleClick}>Home</button>

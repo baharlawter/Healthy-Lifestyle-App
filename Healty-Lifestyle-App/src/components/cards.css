@@ -12,10 +12,10 @@
 
 .images {
   width: 250px;
-  height: 200px;
+  height: 230px;
   margin: auto;
   border: 10px;
-  border-radius: 80%;
+  border-radius: 70%;
 }
 .paragraph {
   color: rgb(18, 19, 18);

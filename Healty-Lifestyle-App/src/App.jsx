@@ -13,6 +13,9 @@ function App() {
       <br />
       <br />
       <h1 className="title">Healthy Living Starts Here</h1>
+      <hr />
+
+      <h2 className="madeBy">Made by: Bahar Lawter</h2>
       <div className="cards">
         <Card />
         <hr />

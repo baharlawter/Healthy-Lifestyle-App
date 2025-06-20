@@ -18,3 +18,8 @@
 body {
   background-color: lightgray;
 }
+.madeBy {
+  text-align: center;
+  font-style: italic;
+  color: rgb(29, 31, 30);
+}
