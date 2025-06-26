@@ -7,7 +7,7 @@
 }
 .title {
   text-align: center;
-  color: rgb(5, 55, 18);
+  color: rgb(202, 226, 150);
 }
 .app-container {
   min-height: 100vh;
@@ -16,7 +16,7 @@
 }
 
 body {
-  background-color: lightgray;
+  background-color: light rgb(217, 161, 104);
 }
 .madeBy {
   text-align: center;

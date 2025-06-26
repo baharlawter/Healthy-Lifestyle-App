@@ -25,7 +25,8 @@ function Card3() {
           <br /> and lead to heart problems. It offers no real <br />
           nutrients—just empty calories that can <br /> mess with your body’s
           balance.
-          <br />
+          <hr />
+          Please Click here to go back 😁👍
         </div>
       </div>
     );

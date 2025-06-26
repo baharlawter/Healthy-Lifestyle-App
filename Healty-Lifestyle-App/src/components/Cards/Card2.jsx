@@ -25,6 +25,8 @@ function Card2() {
           just what you eat. <br />
           It also supports weight <br />
           loss and more stable energy.
+          <hr />
+          Please Click here to go back 😁👍
         </div>
       </div>
     );

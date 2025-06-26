@@ -26,6 +26,8 @@ function Card4() {
           like veggies, lean proteins, and <br />
           whole grains keep your systems running <br />
           smoothly.
+          <hr />
+          Please Click here to go back 😁👍
         </div>
       </div>
     );

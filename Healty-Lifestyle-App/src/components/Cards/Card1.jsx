@@ -24,6 +24,8 @@ function Card1() {
           <br /> improves blood circulation, and supports
           <br /> better sleep—making daily life easier <br />
           and more enjoyable.
+          <hr />
+          Please Click here to go back 😁👍
         </div>
       </div>
     );
@@ -43,6 +45,7 @@ function Card1() {
           width={200}
           height={200}
         ></img>
+
         <p className="paragraph">
           Exercise is essential for maintaining a healthy body and mind. It
           strengthens muscles, improves heart health, and boosts endurance,

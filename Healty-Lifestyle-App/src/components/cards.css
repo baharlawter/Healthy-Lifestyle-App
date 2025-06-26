@@ -1,5 +1,5 @@
 .card {
-  background-color: rgb(193, 194, 193);
+  background-color: light gray;
   width: 250px;
   padding: 16px;
   margin: 16 px;
@@ -15,11 +15,11 @@
   height: 230px;
   margin: auto;
   border: 10px;
-  border-radius: 70%;
+  border-radius: 10px;
 }
 .paragraph {
-  color: rgb(18, 19, 18);
-  border: 1px solid rgb(27, 66, 23);
+  color: rgb(43, 39, 5);
+  border: 2px solid rgb(73, 58, 3);
   border-radius: 10px;
   padding: 8px;
   margin-top: 8px;
@@ -28,7 +28,9 @@
 }
 .title {
   font-family: Arial, Helvetica, sans-serif;
-  color: rgb(44, 44, 44);
+  color: rgb(68, 66, 66);
+  border: 20px;
+  border-radius: 20px;
 }
 .buttons {
   height: 30px;
@@ -47,8 +49,9 @@
 }
 
 .header {
-  border-color: black;
-  background-color: darkgray;
+  border-color: #000000;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background-color: light rgb(158, 153, 153);
   width: full;
   display: flex;
   flex-direction: row;
