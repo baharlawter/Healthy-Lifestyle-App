@@ -30,14 +30,17 @@ function App() {
       <h2>Purchase Online Books</h2>
       <div className="prop-container">
         <ListOfMeals
-          title="Healthy Recipes"
-          author="Bahar Lawter"
-          image="https://www.allrecipes.com/thmb/8NccFzsaq0_OZPDKmf7Yee-aG78=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/AvocadoToastwithEggFranceC4x3-bb87e3bbf1944657b7db35f1383fabdb.jpg"
+          title="Youg Forever"
+          purchase="Price $25"
+          image="https://m.media-amazon.com/images/I/41jcolfcnEL._SY445_SX342_.jpg"
+          onClick={() =>
+            window.open("https://www.amazon.com/s?k=Young+forever")
+          }
         />
         <ListOfMeals
-          title="Intermitten Fasting"
-          author="Bahar Lawter"
-          image="https://media.istockphoto.com/id/1129355124/photo/twelve-hour-intermittent-fasting-time-concept-with-clock-on-plate.jpg?s=612x612&w=0&k=20&c=3SbGM1j_ea9Kob_l6zCJdsWcyYWXK2fUkiGiw0rYefw="
+          title="The Obesity Code"
+          purchase="Price $30"
+          image="https://m.media-amazon.com/images/I/61SArpks6RL._SL1500_.jpg"
         />
       </div>
       <Footer />
