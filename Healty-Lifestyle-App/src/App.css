@@ -23,3 +23,15 @@ body {
   font-style: italic;
   color: rgb(91, 92, 92);
 }
+.props {
+  border: 1px solid black;
+  border-radius: 3%;
+  background-color: rgb(203, 201, 201);
+  color: rgb(11, 11, 11);
+  padding: 0%;
+}
+.prop-container {
+  display: flex;
+  justify-content: space-between;
+  width: 25%;
+}
