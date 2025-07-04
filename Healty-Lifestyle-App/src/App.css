@@ -31,9 +31,4 @@ body {
   padding: 0%;
   padding: 5px;
 }
-.prop-container {
-  display: flex;
-  justify-content: space-between;
-  width: 25%;
-  padding: 10px;
-}
+

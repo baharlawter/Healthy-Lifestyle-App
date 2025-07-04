@@ -1,0 +1,53 @@
+import Exercise from "../assets/Exercize.jpg";
+import Fasting from "../assets/Fasting.jpg";
+import Sugar from "../assets/Sugar.jpg";
+import Plate from "../assets/Plate.jpg";
+const CardArray = [
+    {
+        title: "Exercise Daily",
+        image: Exercise,
+        alt: "Exercize",
+        description: "Exercise is essential for maintaining a healthy body and mind. It strengthens muscles, improves heart health, and boosts endurance, making daily activities easier. Regular movement helps control weight, reduce stress, and enhance mood by releasing feel-good hormones.",
+    },
+    {
+        title: "Intermittent Fasting",
+        image: Fasting,
+        alt: "Exercize",
+        description: "Intermittent fasting is a popular eating pattern that cycles between periods of eating and fasting. It can help with weight management, blood sugar control, and cellular repair by allowing the body to burn stored fat more efficiently.",
+    },
+    {
+        title: "Quitting Added Sugar",
+        image: Sugar,
+        alt: "Why added sugar is bad for you?",
+        description: "Added sugar can have serious effects on health, contributing to weight gain, heart disease, and increased risk of diabetes. Excess sugar consumption can lead to inflammation, disrupt metabolism, and even accelerate skin aging2.",
+    },
+    {
+        title: "Eating Healthy",
+        image: Plate,
+        alt: "A healthy meal",
+        description: "Eating healthy fuels your body with the nutrients it needs to function at its best. A balanced diet supports strong immunity, steady energy, and better digestion—while helping to maintain a healthy weight and reduce the risk of chronic diseases like heart disease and diabetes. ",
+    }
+]
+
+const BooksArray = [
+    {
+        title: "Youg Forever",
+        purchase: "Price $25",
+        image: "https://m.media-amazon.com/images/I/41jcolfcnEL._SY445_SX342_.jpg",
+        link: "https://www.amazon.com/s?k=Young+forever"
+    },
+    {
+        title: "The Obesity Code",
+        purchase: "Price $30",
+        image: "https://m.media-amazon.com/images/I/61SArpks6RL._SL1500_.jpg",
+        link: "https://www.amazon.com/s?k=The+Obesity+Code"
+    },
+    {
+        title: "The 4-Hour Body",
+        purchase: "Price $20",
+        image: "https://m.media-amazon.com/images/I/41b1d2e8JjL._SX331_BO1,204,203,200_.jpg",
+        link: "https://www.amazon.com/s?k=The+4-Hour+Body"
+    },
+]   
+
+export { CardArray, BooksArray };
