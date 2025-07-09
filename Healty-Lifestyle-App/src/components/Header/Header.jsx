@@ -1,8 +1,7 @@
-import { Link, NavLink } from 'react-router-dom';
-import './Header.css';
+import { Link, NavLink } from "react-router-dom";
+import "./Header.css";
 
 function Header() {
-
   return (
     <header className="main-header">
       <div className="header-container">
@@ -10,13 +9,15 @@ function Header() {
           Healthy Lifestyle
         </Link>
         <nav className="main-nav">
-          <NavLink to="/" end>Home</NavLink>
+          <NavLink to="/" end>
+            Home
+          </NavLink>
           <NavLink to="/shop">Shop</NavLink>
+          <NavLink to="/about">About</NavLink>
         </nav>
       </div>
     </header>
   );
 }
-
 
 export default Header;

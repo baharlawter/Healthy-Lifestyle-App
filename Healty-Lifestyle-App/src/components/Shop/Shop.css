@@ -7,6 +7,14 @@
 
 .book-container {
   margin-left: 1rem;
-  margin-right: 1rem;;
+  margin-right: 1rem;
+  width: 170px;
+  text-align: center;
 }
 
+.h2-element {
+  background-color: #4caf50;
+  padding: 1.5rem;
+  text-align: center;
+  color: aliceblue;
+}
