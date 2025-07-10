@@ -1,14 +1,19 @@
-function Books(props) {
+function Books({ title, link, purchase, image, onAdd, onDelete }) {
   return (
-    <div
-      className="props"
-      style={{ cursor: "pointer" }}
-      onClick={() => window.open(props.link, "_blank")}
-    >
-      <p>{props.title}</p>
-      <p>{props.purchase}</p>
-      <img src={props.image} width={120} height={150} />
+    <div className="props">
+      <img src={image} alt={title} width="100" />
+      <h3>{title}</h3>
+      <p>{purchase}</p>
+      <button className="add-delete-buttons" onClick={onAdd}>
+        Add
+      </button>
+      <hr />
+
+      <button className="add-delete-buttons" onClick={onDelete}>
+        Delete
+      </button>
     </div>
   );
 }
+
 export default Books;

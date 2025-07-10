@@ -18,3 +18,14 @@
   text-align: center;
   color: aliceblue;
 }
+
+.cart-element {
+  margin-top: 20px;
+  margin-left: 0;
+  text-align: left;
+  font-size: 1.5rem;
+}
+.add-delete-buttons {
+  display: flex;
+  gap: 10px;
+}
