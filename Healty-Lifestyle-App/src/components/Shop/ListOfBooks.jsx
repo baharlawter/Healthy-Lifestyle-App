@@ -1,4 +1,4 @@
-function Books({ title, link, purchase, image, onAdd, onDelete }) {
+function Books({ title, purchase, image, onAdd, onDelete }) {
   return (
     <div className="props">
       <img src={image} alt={title} width="100" />
