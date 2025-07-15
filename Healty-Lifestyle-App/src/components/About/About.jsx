@@ -3,10 +3,30 @@ import "./About.css";
 function About() {
   return (
     <div className="about-page">
+      <h1 className="our-story">Our Story</h1>
+      <p className="our-story-paragraph">
+        Back in 2019, a team of educators and wellness enthusiasts launched
+        Healthy Lifestyle to turn balanced living into simple, daily habits. Our
+        goal is to guide you through small, consistent steps—like meal swaps,
+        movement prompts, and sleep routines—to build lasting health and
+        celebrate every victory.
+      </p>
+      <h1 className="our-goal">Our Goal</h1>
+      <p className="our-goal-paragraph">
+        Our mission is to guide you toward a sustainable, joyful lifestyle—one
+        small step at a time. We believe that real change happens through
+        consistent, manageable habits, not drastic overhauls. That’s why our app
+        focuses on bite-sized challenges, personalized progress tracking, and
+        positive reinforcement rather than guilt trips. Whether you’re swapping
+        soda for sparkling water or aiming for your first 5K, we’re here to
+        celebrate every victory, big or small. By blending expert insights with
+        smart notifications and a supportive community, we want to help you
+        build—and stick with—habits that last a lifetime.
+      </p>
       <img
         className="about-image"
-        src="https://bing.com/th/id/BCO.8d25b919-2d6b-404f-9fd5-68b53b60c36b.png"
-        alt="no sugar, intermitten fastin and exercising"
+        src="https://bing.com/th/id/BCO.8b9b6f04-fa85-4b5c-b52f-5c12710a54a1.png"
+        alt="about me page"
       />
     </div>
   );
