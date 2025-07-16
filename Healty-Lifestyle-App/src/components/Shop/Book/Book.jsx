@@ -1,3 +1,5 @@
+import "./Book.css";
+
 function Books({ title, purchase, image, onAdd, onDelete }) {
   return (
     <div className="props">
