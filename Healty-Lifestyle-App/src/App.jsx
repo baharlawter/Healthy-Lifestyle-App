@@ -14,8 +14,10 @@ function App() {
         <div className="app-container">
           <Header />
           <br />
-          <h1 className="title">Healthy Living Starts Here</h1>
-          <h2 className="madeBy">Made by: Bahar Lawter</h2>
+          <div className="page-title">
+            <h1>Healthy Living Starts Here</h1>
+            <h2>Made by: Bahar Lawter</h2>
+          </div>
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/shop" element={<Shop />} />
