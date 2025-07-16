@@ -15,6 +15,7 @@ function Footer() {
         <p>123 Sloan lane, Las Vegas, NV, 66677</p>
         <p>Phone Number: 123-123-123</p>
         <p>Email: example@gmail.com</p>
+        <div></div>
       </div>
     </div>
   );
