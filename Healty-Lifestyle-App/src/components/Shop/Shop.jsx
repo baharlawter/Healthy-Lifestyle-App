@@ -1,9 +1,7 @@
 import "./Shop.css";
-import Books from "./ListOfBooks";
+import Book from "./Book/Book";
 import { BooksArray } from "../../data/mockData";
-import "./Shop.css";
 import { useState } from "react";
-
 function Shop() {
   const [cart, setCart] = useState([]);
   function addToCart(book) {
@@ -19,8 +17,8 @@ function Shop() {
       <div className="prop-container">
         {BooksArray.map((book, index) => (
           <div className="book-container">
-            <Books
-              // key={index}
+            <Book
+              key={index}
               title={book.title}
               link={book.link}
               purchase={book.purchase}
