@@ -14,7 +14,7 @@ function Header() {
           </NavLink>
           <NavLink to="/shop">Shop</NavLink>
           <NavLink to="/about">About</NavLink>
-          {/* <NavLink to="/form">Form</NavLink> */}
+          <NavLink to="/api">Api</NavLink>
         </nav>
       </div>
     </header>
