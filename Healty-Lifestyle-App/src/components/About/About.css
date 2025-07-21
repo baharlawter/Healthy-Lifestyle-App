@@ -1,23 +1,125 @@
-.about-image {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 300px;
-  height: 500px;
+.about-page {
+  max-width: 800px;
   margin: 0 auto;
+  padding: 2rem;
+  font-family: "Helvetica Neue", sans-serif;
+  background-color: #fdfdfd;
+  line-height: 1.6;
+  text-align: center;
 }
+
+/* Headings */
+.our-story,
+.our-goal {
+  color: #0c0d0d;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  border-bottom: 2px solid #1c1c1c;
+  padding-bottom: 0.5rem;
+}
+
+/* Paragraphs */
+.our-story-paragraph,
+.our-goal-paragraph {
+  color: #151615;
+  font-size: 1rem;
+  margin-bottom: 2rem;
+
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+/* Image styling */
+.about-image {
+  width: 70%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  margin-top: 2rem;
+  align-items: center;
+}
+
 @media (max-width: 480) {
-  .about-image {
-    width: 90%;
-    height: auto;
+  .about-page {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+    font-family: "Helvetica Neue", sans-serif;
+    background-color: #fdfdfd;
+    line-height: 1.6;
+    text-align: center;
+  }
+
+  /* Headings */
+  .our-story,
+  .our-goal {
+    color: #0c0d0d;
+    font-size: 2rem;
     margin-bottom: 1rem;
+    border-bottom: 2px solid #1c1c1c;
+    padding-bottom: 0.5rem;
+  }
+
+  /* Paragraphs */
+  .our-story-paragraph,
+  .our-goal-paragraph {
+    color: #151615;
+    font-size: 1rem;
+    margin-bottom: 2rem;
+
+    padding: 1rem;
+    border-radius: 8px;
+  }
+
+  /* Image styling */
+  .about-image {
+    width: 70%;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    margin-top: 2rem;
+    align-items: center;
   }
 }
 @media (min-width: 481px) and(max-with:768px) {
+  .about-page {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+    font-family: "Helvetica Neue", sans-serif;
+    background-color: #fdfdfd;
+    line-height: 1.6;
+    text-align: center;
+  }
+
+  /* Headings */
+  .our-story,
+  .our-goal {
+    color: #0c0d0d;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid #1c1c1c;
+    padding-bottom: 0.5rem;
+  }
+
+  /* Paragraphs */
+  .our-story-paragraph,
+  .our-goal-paragraph {
+    color: #151615;
+    font-size: 1rem;
+    margin-bottom: 2rem;
+
+    padding: 1rem;
+    border-radius: 8px;
+  }
+
+  /* Image styling */
   .about-image {
-    padding: 1.5rem;
-    display: flex;
-    flex-direction: column;
+    width: 70%;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    margin-top: 2rem;
     align-items: center;
   }
 }
