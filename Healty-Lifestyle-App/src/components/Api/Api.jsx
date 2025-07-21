@@ -1,29 +1,67 @@
-import { useEffect } from "react";
-
+import { useState } from "react";
+import "./Api.css";
 function Api() {
-  let data;
-  //   useEffect(() => {
-  async function getData() {
-    const response = await fetch("http://makeup-api.herokuapp.com/", {
-      method: "GET",
+  const [data, setData] = useState(null);
+  const [selectedFood, setSelectedFood] = useState("cheddar cheese");
+
+  const foodOptions = [
+    "cheddar cheese",
+    "apple",
+    "banana",
+    "grilled chicken",
+    "peanut butter",
+    "whole milk",
+    "broccoli",
+    "oatmeal",
+    "almonds",
+    "yogurt"
+  ];
+
+  function getData() {
+    fetch("https://trackapi.nutritionix.com/v2/natural/nutrients", {
+      method: "POST",
       headers: {
         "Content-Type": "application/json",
+        "x-app-id": "05ed2e8a",
+        "x-app-key": "64a4ec7829202dcbbfa1a561b73e852b",
       },
-    });
-
-    this.data = await response.json();
-    console.log(data);
+      body: JSON.stringify({
+        query: selectedFood,
+      }),
+    })
+      .then((response) => response.json())
+      .then((result) => {
+        console.log(result);
+        setData(result);
+      })
+      .catch((error) => console.error("Fetch error:", error));
   }
-  // fetch("https://api.fda.gov/drug/label.json")
-  //   .then((res) => res.json())
-  //   .then((data) => console.log(data))
-  //   .catch((err) => console.error("Error fetching data", err));
-  //   }, []);
 
   return (
-    <div>
-      <button onClick={getData}>Get Data</button>
-      <h1>{data}</h1>
+    <div className="nutrition-card">
+      <label htmlFor="food-select">Lookup ingredient:</label>
+      <select
+        id="food-select"
+        value={selectedFood}
+        onChange={(e) => setSelectedFood(e.target.value)}
+      >
+        {foodOptions.map((food, idx) => (
+          <option key={idx} value={food}>
+            {food}
+          </option>
+        ))}
+      </select>
+
+      <button onClick={getData}>Get Nutrition</button>
+
+      {data && (
+        <div className="nutrition-stats">
+          <h1>{data.foods?.[0]?.food_name}</h1>
+          <p>Calories: {data.foods?.[0]?.nf_calories}</p>
+          <p>Protein: {data.foods?.[0]?.nf_protein}g</p>
+          <p>Fat: {data.foods?.[0]?.nf_total_fat}g</p>
+        </div>
+      )}
     </div>
   );
 }
