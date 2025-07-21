@@ -5,23 +5,15 @@
   flex-wrap: wrap;
   justify-content: center;
 }
-*/ .title {
+.page-title {
   text-align: center;
-  color: rgb(202, 226, 150);
 }
 .app-container {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
 }
-.props {
-  border: 1px solid black;
-  border-radius: 3%;
-  background-color: rgb(203, 201, 201);
-  color: rgb(11, 11, 11);
-  padding: 0%;
-  padding: 5px;
-}
+
 @media (max-width: 480px) {
   .cards {
     flex-direction: column;
@@ -29,9 +21,8 @@
     gap: 1rem;
   }
 
-  .title {
-    font-size: 1.5rem;
-    padding: 0.5rem 0;
+  .page-title {
+    text-align: center;
   }
 
   .app-container {
@@ -47,29 +38,115 @@
     color: rgb(91, 92, 92);
   }
 
+
+}
+@media (min-width: 481px) and (max-width: 768px) {
+  .cards {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .page-title {
+    text-align: center;
+  }
+  .app-container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
   .props {
-    width: 90%;
-    margin: 0 auto;
-    padding: 0.5rem;
+    border: 1px solid black;
+    border-radius: 3%;
+    background-color: rgb(203, 201, 201);
+    color: rgb(11, 11, 11);
+    padding: 0%;
+    padding: 5px;
+  }
+  @media (max-width: 480px) {
+    .cards {
+      flex-direction: column;
+      align-items: stretch;
+      gap: 1rem;
+    }
+
+    .page-title {
+      text-align: center;
+    }
+
+    .app-container {
+      padding: 1rem;
+    }
+
+    body {
+      background-color: light rgb(217, 161, 104);
+    }
+    .madeBy {
+      text-align: center;
+      font-style: italic;
+      color: rgb(91, 92, 92);
+    }
+
+    .props {
+      width: 90%;
+      margin: 0 auto;
+      padding: 0.5rem;
+    }
   }
 }
 @media (min-width: 481px) and (max-width: 768px) {
   .cards {
+    display: flex;
+    flex: 1;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 1rem;
+  }
+  .page-title {
+    text-align: center;
+  }
+  .app-container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
   }
   .props {
-    width: calc(50% - 1rem);
-    margin: 0;
-    padding: 0.75rem;
+    border: 1px solid black;
+    border-radius: 3%;
+    background-color: rgb(203, 201, 201);
+    color: rgb(11, 11, 11);
+    padding: 0%;
+    padding: 5px;
   }
+  @media (max-width: 480px) {
+    .cards {
+      flex-direction: column;
+      align-items: stretch;
+      gap: 1rem;
+    }
 
-  .title {
-    font-size: 2rem;
-  }
-  .madeBy {
-    font-size: 0.9rem;
+    .page-title {
+      text-align: center;
+    }
+
+    .app-container {
+      padding: 1rem;
+    }
+
+    body {
+      background-color: light rgb(217, 161, 104);
+    }
+    .madeBy {
+      text-align: center;
+      font-style: italic;
+      color: rgb(91, 92, 92);
+    }
+
+    .props {
+      width: 90%;
+      margin: 0 auto;
+      padding: 0.5rem;
+    }
   }
 }
