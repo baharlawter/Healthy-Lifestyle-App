@@ -35,3 +35,81 @@
   display: flex;
   gap: 10px;
 }
+@media (max-width: 480) {
+  .prop-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 1rem;
+  }
+  .props {
+    width: auto;
+    height: auto;
+  }
+
+  .book-container {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    width: 170px;
+    text-align: center;
+    display: flex;
+  }
+
+  .h2-element {
+    background-color: #4caf50;
+    padding: 1.5rem;
+    text-align: center;
+    color: aliceblue;
+  }
+
+  .cart-element {
+    margin-top: 20px;
+    margin-left: 0;
+    text-align: left;
+    font-size: 1.5rem;
+    display: flex;
+  }
+  .add-delete-buttons {
+    display: flex;
+    gap: 10px;
+  }
+}
+@media (min-width: 481px) and(max-with:768px) {
+  .prop-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 1rem;
+  }
+  .props {
+    width: auto;
+    height: auto;
+  }
+
+  .book-container {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    width: 170px;
+    text-align: center;
+    display: flex;
+  }
+
+  .h2-element {
+    background-color: #4caf50;
+    padding: 1.5rem;
+    text-align: center;
+    color: aliceblue;
+  }
+
+  .cart-element {
+    margin-top: 20px;
+    margin-left: 0;
+    text-align: left;
+    font-size: 1.5rem;
+    display: flex;
+  }
+  .add-delete-buttons {
+    display: flex;
+    gap: 10px;
+  }
+}

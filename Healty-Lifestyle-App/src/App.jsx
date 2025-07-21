@@ -15,7 +15,7 @@ function App() {
           <Header />
           <br />
           <h1 className="title">Healthy Living Starts Here</h1>
-          <h2 className="madeBy">Made by: Bahar Lawter</h2>
+          <h2 className="made-by">Made by: Bahar Lawter</h2>
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/shop" element={<Shop />} />
