@@ -33,10 +33,12 @@ function Footer() {
       )}
 
       <div>
-        <h3>Please Contact Us</h3>
-        <p>123 Sloan lane, Las Vegas, NV, 66677</p>
-        <p>Phone Number: 123-123-123</p>
-        <p>Email: example@gmail.com</p>
+        <ul>
+          <h3>Please Contact Us 😊!</h3>
+          <li>123 Sloan lane, Las Vegas, NV, 66677</li>
+          <p>Phone Number: 123-123-123</p>
+          <p>Email: example@gmail.com</p>
+        </ul>
       </div>
     </div>
   );

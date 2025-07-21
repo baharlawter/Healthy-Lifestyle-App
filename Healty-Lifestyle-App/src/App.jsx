@@ -6,6 +6,7 @@ import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
 import ListOfMeals from "./components/Shop/ListOfBooks";
 import About from "./components/About/About";
+import Api from "./components/ApiTesting/Api";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/shop" element={<Shop />} />
             <Route path="/about" element={<About />} />
+            <Route path="/api" element={<Api />} />
           </Routes>
 
           <Footer />
