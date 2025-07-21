@@ -35,13 +35,13 @@ const CardArray = [
 
 const BooksArray = [
   {
-    title: "  Youg Forever. ",
+    title: "Young Forever.",
 
     image: "https://m.media-amazon.com/images/I/41jcolfcnEL._SY445_SX342_.jpg",
     link: "https://www.amazon.com/s?k=Young+forever",
   },
   {
-    title: "  The Obesity Code. ",
+    title: "The Obesity Code.",
 
     image: "https://m.media-amazon.com/images/I/61SArpks6RL._SL1500_.jpg",
     link: "https://www.amazon.com/s?k=The+Obesity+Code",

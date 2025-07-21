@@ -14,9 +14,8 @@ function Shop() {
   return (
     <>
       <h2 className="h2-element">Purchase Online Books</h2>
-      <div className="prop-container">
+      <div className="book-container">
         {BooksArray.map((book, index) => (
-          <div className="book-container">
             <Book
               key={index}
               title={book.title}
@@ -27,13 +26,11 @@ function Shop() {
               onDelete={() => deleteCart(book)}
               // onClick={book.onClick}
             />
-          </div>
         ))}
-        <br />
+      </div>
         <div>
           <h3 className="cart-element">🛒 Cart: {cart.length} </h3>
         </div>
-      </div>
     </>
   );
 }
