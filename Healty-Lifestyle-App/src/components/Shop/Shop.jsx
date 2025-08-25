@@ -2,11 +2,14 @@ import "./Shop.css";
 import Book from "./Book/Book";
 import { BooksArray } from "../../data/mockData";
 import { useState } from "react";
+
 function Shop() {
   const [cart, setCart] = useState([]);
+
   function addToCart(book) {
     setCart([...cart, book]);
   }
+
   function deleteCart(book) {
     setCart(cart.filter((item) => item.title !== book.title));
   }
